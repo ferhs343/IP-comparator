@@ -145,7 +145,7 @@ function uniqs() {
 
 #MAIN PROGRAM
 echo " "
-echo -e "${yellow}Este script fue elaborado con el proposito de comparar listas de segmentos IPv4 de un sensor.${white}"
+echo -e "${yellow}Este script fue elaborado con el proposito de comparar listas de segmentos IPv4 de un sensor de Global Cybersec.${white}"
 echo " "
 echo " "
 echo -e "${blue}-------------------------------------------${white}"
