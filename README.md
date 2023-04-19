@@ -12,7 +12,7 @@ Antes de iniciar la herramienta se debe de tener en cuenta que la misma comenzar
 
 IMPORTANTE: En este punto se deberán color los nombre de los archivos sin la extensión del mismo!.
 
-![image](https://user-images.githubusercontent.com/114626248/233193433-e7af7408-f877-4879-ada4-621fb9a80d09.png)
+![image](https://user-images.githubusercontent.com/114626248/233197741-9afa1988-0854-4919-94d3-d309bbb20bf3.png)
 
 2. En el apartado de las variables se deberá de cambiar el valor de la variable "client" por el cliente del cual se extrajeron los múltiples segmentos IPv4.
 
