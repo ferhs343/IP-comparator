@@ -7,5 +7,4 @@ La herramienta "IP-Comparator" fué elaborada para uso interno del SOC, con el p
 
 ## ¿Como funciona?
 Primero se debe de tener en cuenta que la herramienta comenzará su funcionaminto sí se llevan a cabo los siguientes puntos:
-
-### 1. 
+ 
