@@ -5,10 +5,12 @@
 ## ¿Para qué sirve la herramienta?
 La herramienta "IP-Comparator" fué elaborada para uso interno del SOC, con el propósito de automatizar el proceso de realizar la comparacion de cada uno de los elementos de diferentes listas de segmentos IPv4 de un sensor de Global Cybersec, siendo útil al tener enormes listas de segmentos IPv4.
 
-## ¿Como funciona?
-Primero se debe de tener en cuenta que la herramienta comenzará su funcionaminto sí se llevan a cabo los siguientes puntos dentro del código fuente:
+## Consideraciones a tener
+Antes de iniciar la herramienta se debe de tener en cuenta que la misma comenzará su funcionaminto sí se llevan a cabo los siguientes puntos dentro del código fuente:
 
-1. Al inicio del código fuente se encuentra un arreglo con sus respectivos elementos, se DEBERÁ de cambiar cada uno de sus elementos por los nombres CORRECTOS de los archivos que contienen los segmentos IPv4
+1. Al inicio del código fuente se encuentra un arreglo con sus respectivos elementos, se DEBERÁ de cambiar cada uno de sus elementos por los nombres CORRECTOS de los archivos que contienen los segmentos IPv4.
+
+IMPORTANTE: En este punto se deberán color los nombre de los archivos sin la extensión del mismo!.
 
 ![image](https://user-images.githubusercontent.com/114626248/233193433-e7af7408-f877-4879-ada4-621fb9a80d09.png)
 
@@ -16,8 +18,17 @@ Primero se debe de tener en cuenta que la herramienta comenzará su funcionamint
 
 ![image](https://user-images.githubusercontent.com/114626248/233191881-d86fc37c-6524-4e5a-bb41-602b38046108.png) 
 
-De no cumplir con los puntos anteriores, la herramienta no se iniciará, y mandará un error, detectanto que no existe alguno(s) de los archivos.
+De no cumplir con los puntos anteriores, la herramienta no se iniciará correctamente, y mandará un error, detectanto que no existe alguno(s) de los archivos.
 
-![image](https://user-images.githubusercontent.com/114626248/233192139-b012a1be-b99c-4bb8-b502-50d5c35f540e.png)
+![image](https://user-images.githubusercontent.com/114626248/233196698-a2958601-df93-4726-8bf7-78347b95ac76.png)
+
+## ¿Como funciona?
+Una vez completado el paso anterior, se iniciará correctamente la herramienta, mostrando los archivos cargados anteriormente:
+
+![image](https://user-images.githubusercontent.com/114626248/233196888-03f5dfcd-caf8-4ff3-ab49-967a68bff665.png)
+
+
+
+
 
  
