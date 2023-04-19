@@ -6,7 +6,6 @@
 
 clear
 
-#FILES - CHANGE THIS SECTION WITH THE NAME OF YOUR TEXT FILES THAT CONTAIN IPv4 SEGMENTS. IMPORTANT ==> CHANGE THIS SECTION WITHOUT FILE EXTENTION!
 files=(
         'libra-liberty'
         'escorpio-liberty'
@@ -15,7 +14,9 @@ files=(
 )
 
 #VARIABLES
-new_directory="Libertad-uniqs"
+client="libertad" #CHANGE THIS VARIABLE
+
+new_directory="$client-uniqs"
 extention=".txt"
 extention2=".uniq"
 code_file=1
@@ -74,7 +75,7 @@ function matched() {
                                 if [ "$flag2" -eq 0 ];
                                 then
                                         echo -e "${green} [+] " ${j}${white}
-                                        sleep 0.1
+                                        sleep 0.03
                                         total=$((total+1))
                                 fi
                         fi
@@ -129,8 +130,8 @@ function uniqs() {
                         then
                                 if [ "$flag2" -eq 1 ];
                                 then
-                                        echo $j >> "${new_directory}/new-${files[$i]}-${code_file}${extention2}"
-                                        sleep 0.2
+                                        echo $j >> "${new_directory}/${client}-${files[$i]}-${code_file}${extention2}"
+                                        sleep 0.03
                                         total=$((total+1))
                                 fi
                         fi
@@ -145,7 +146,7 @@ function uniqs() {
 
                         if [ "$total" != 0 ];
                         then
-                                echo -e "${green} [+] FILE SAVED IN ${red}====>${green} [ ${new_directory}/new-${files[$i]}-${code_file}${extention2} ]${white}"
+                                echo -e "${green} [+] FILE SAVED IN ${red}====>${green} [ ${new_directory}/$client-${files[$i]}-${code_file}${extention2} ]${white}"
                         else
                                 echo -e "${red} [+] NO Unique Ipv4 segments."
                         fi
@@ -169,7 +170,7 @@ echo -e "${yellow} Este script fue elaborado con el proposito de comparar listas
 echo " "
 echo " "
 echo -e "${blue} ------------------------${white}"
-echo -e "${blue} | AVAILABLE FILES: ${#files[@]}   |${white}"
+echo -e "${blue} | AVAILABLE FILES      |${white}"
 echo -e "${blue} ------------------------${white}"
 echo " "
 
