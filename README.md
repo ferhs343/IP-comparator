@@ -1,7 +1,6 @@
 # IP-comparator
 
-![image](https://user-images.githubusercontent.com/114626248/233187600-81548f74-32f6-4963-af2d-30574eece1ed.png)
-
+![image](https://user-images.githubusercontent.com/114626248/233187728-80c35b49-6224-4b31-987d-57a6f66dff01.png)
 
 ## ¿Para qué sirve la herramienta?
-La herramienta "IP-Comparator" fué elaborada para automatizar el proceso de realizar la comparacion de cada uno de los elementos de diferentes listas de segmentos IPv4 de un sensor de Global Cybersec.
+La herramienta "IP-Comparator" fué elaborada para uso interno del SOC, con el propósito de automatizar el proceso de realizar la comparacion de cada uno de los elementos de diferentes listas de segmentos IPv4 de un sensor de Global Cybersec.
