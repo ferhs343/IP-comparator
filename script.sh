@@ -6,6 +6,7 @@
 
 clear
 
+#FILES ==> CHANGE THIS SECTION FOR THE FILES TO ANALYZE, WITHOUT ITS EXTENSION
 files=(
         'libra-liberty'
         'escorpio-liberty'
