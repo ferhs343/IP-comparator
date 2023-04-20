@@ -12,11 +12,12 @@ Antes de iniciar la herramienta se debe de tener en cuenta que la misma comenzar
 
 IMPORTANTE: En este punto se deberán color los nombre de los archivos sin la extensión del mismo!.
 
-![image](https://user-images.githubusercontent.com/114626248/233197741-9afa1988-0854-4919-94d3-d309bbb20bf3.png)
+![image](https://user-images.githubusercontent.com/114626248/233439723-63b93ee0-1cbb-4012-a241-279702e90762.png)
 
 2. En el apartado de las variables se deberá de cambiar el valor de la variable "client" por el cliente del cual se extrajeron los múltiples segmentos IPv4.
 
-![image](https://user-images.githubusercontent.com/114626248/233191881-d86fc37c-6524-4e5a-bb41-602b38046108.png) 
+![image](https://user-images.githubusercontent.com/114626248/233439820-b4402133-35f6-4b46-890c-4ab63cba0d4a.png)
+
 
 De no cumplir con los puntos anteriores, la herramienta no se iniciará correctamente, y mandará un error, detectanto que no existe alguno(s) de los archivos.
 
