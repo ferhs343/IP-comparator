@@ -39,11 +39,10 @@ La herramienta comenzará a analizar el archivo, teniendo como primeros resultad
 ![image](https://user-images.githubusercontent.com/114626248/233443874-4d897847-f23a-43de-b7d5-301bc9d26c97.png)
 
 
-Posteriormente arroja los resultados de los segmentos IPv4 que son únicos en el archivo, es decir, que no coinciden en los demás, así mismo, los redirije a un nuevo archivo con un "Identificador" entero, para evitar sobreescribir los mismos cada ves que el proceso se repita, ó cada vez que la herramienta se ejecute.
+Posteriormente arroja los resultados de los segmentos IPv4 que son únicos en el archivo, es decir, lo que no coinciden en cada uno de los demas archivos, así mismo, los redirije a un nuevo archivo con un "Identificador" entero, para evitar sobreescribir los mismos cada ves que el proceso se repita, ó cada vez que la herramienta se ejecute.
 
-![image](https://user-images.githubusercontent.com/114626248/233238262-21832433-04a5-4265-9293-2dcee56b289a.png)
+![image](https://user-images.githubusercontent.com/114626248/233445262-3314a134-6a00-40be-80ea-c6fe5c1921be.png)
 
-![image](https://user-images.githubusercontent.com/114626248/233238302-7c12960f-0fff-4e65-8f73-fc82699deda2.png)
 
 La herramienta solicitará al usuario si desea volver a repetir el proceso con otro archivo, se tendrá que indicar S/N, sí se especifica "S", el proceso se volverá a repetir, sí se especifica "N", la herramienta finalizará su ejecución.
 
