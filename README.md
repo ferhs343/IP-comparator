@@ -34,9 +34,7 @@ Se tendrá que especificar un archivo de las opciones alojadas.
 
 La herramienta comenzará a analizar el archivo, teniendo como primeros resultados los segmentos IPv4 que coinciden en cada uno de los archivos, así como la cantidad.
 
-![image](https://user-images.githubusercontent.com/114626248/233443681-f20afcda-67c9-4c90-bd95-d39911ff12b2.png)
-
-![image](https://user-images.githubusercontent.com/114626248/233443874-4d897847-f23a-43de-b7d5-301bc9d26c97.png)
+![233443681-f20afcda-67c9-4c90-bd95-d39911ff12b2](https://user-images.githubusercontent.com/114626248/233446132-16ec9a3f-ec0c-4d3a-ae9b-54a52d64c28f.png)
 
 
 Posteriormente arroja los resultados de los segmentos IPv4 que son únicos en el archivo, es decir, lo que no coinciden en cada uno de los demas archivos, así mismo, los redirije a un nuevo archivo con un "Identificador" entero, para evitar sobreescribir los mismos cada ves que el proceso se repita, ó cada vez que la herramienta se ejecute.
