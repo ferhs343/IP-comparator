@@ -53,7 +53,8 @@ La herramienta solicitará al usuario si desea volver a repetir el proceso con o
 
 Ahora, la herramienta crea un nuevo directorio, donde se guardaran los resultados obtenidos, al entrar a este directorio se observan los archivos nuevos.
 
-![image](https://user-images.githubusercontent.com/114626248/233238805-78fd5cac-4c7d-4ced-a414-e1176d0aab88.png)
+![image](https://user-images.githubusercontent.com/114626248/233444468-54535a2d-aec3-430c-acf1-9724e43c34d3.png)
+
 
 
 
