@@ -8,7 +8,7 @@ La herramienta "IP-Comparator" fué elaborada para uso interno del SOC, con el p
 ## Consideraciones a tener
 Antes de iniciar la herramienta se debe de tener en cuenta que la misma comenzará su funcionaminto sí se llevan a cabo los siguientes puntos dentro del código fuente:
 
-1. Al inicio del código fuente se encuentra un arreglo con sus respectivos elementos, se DEBERÁ de cambiar cada uno de sus elementos por los nombres CORRECTOS de los archivos que se desean analizar, y que estos existen en el directorio de trabajo actual.
+1. Al inicio del código fuente se encuentra un arreglo con sus respectivos elementos, se DEBERÁ de cambiar cada uno de sus elementos por los nombres CORRECTOS de los archivos que se desean analizar, y que estos existen en el directorio donde se encuentra alojada la herramienta.
 
 IMPORTANTE: En este punto se deberán color los nombre de los archivos sin la extensión del mismo!.
 
