@@ -6,7 +6,6 @@
 
 clear
 
-#FILES ==> CHANGE THIS SECTION FOR THE FILES TO ANALYZE, WITHOUT ITS EXTENSION
 files=(
         'libra-liberty'
         'escorpio-liberty'
@@ -103,7 +102,7 @@ function uniqs() {
 
         for  (( i=0;i<=$n_elements-1;i++ ))
         do
-                while [[ -f ./"${new_directory}/new-${files[$i]}-${code_file}${extention2}" ]];
+                while [[ -f ./"${new_directory}/${client}-${files[$i]}-${code_file}${extention2}" ]];
                 do
                         code_file=$((code_file+1))
                 done
@@ -147,7 +146,7 @@ function uniqs() {
 
                         if [ "$total" != 0 ];
                         then
-                                echo -e "${green} [+] FILE SAVED IN ${red}====>${green} [ ${new_directory}/$client-${files[$i]}-${code_file}${extention2} ]${white}"
+                                echo -e "${green} [+] FILE SAVED IN ${red}====>${green} [ ${new_directory}/${client}-${files[$i]}-${code_file}${extention2} ]${white}"
                         else
                                 echo -e "${red} [+] NO Unique Ipv4 segments."
                         fi
