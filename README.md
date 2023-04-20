@@ -26,17 +26,18 @@ De no cumplir con los puntos anteriores, la herramienta no se iniciará correcta
 ## ¿Como funciona?
 Una vez completado el paso anterior, se iniciará correctamente la herramienta, mostrando los archivos cargados anteriormente:
 
-![image](https://user-images.githubusercontent.com/114626248/233196888-03f5dfcd-caf8-4ff3-ab49-967a68bff665.png)
+![image](https://user-images.githubusercontent.com/114626248/233440248-a4da3679-319b-4e85-8700-b90a9ab238ad.png)
 
 Se tendrá que especificar un archivo de las opciones alojadas.
 
-![image](https://user-images.githubusercontent.com/114626248/233237575-6c2c4f2f-95c3-49f5-80c1-a5a79bf4c1c6.png)
+![image](https://user-images.githubusercontent.com/114626248/233440400-0cd26274-9d9f-4d4c-a3bf-d326ab2f15db.png)
 
 La herramienta comenzará a analizar el archivo, teniendo como primeros resultados los segmentos IPv4 que coinciden en cada uno de los archivos, así como la cantidad.
 
-![image](https://user-images.githubusercontent.com/114626248/233237892-cc52f07d-ef4d-4931-83bf-4bcc37ae76e2.png)
+![image](https://user-images.githubusercontent.com/114626248/233443681-f20afcda-67c9-4c90-bd95-d39911ff12b2.png)
 
-![image](https://user-images.githubusercontent.com/114626248/233237938-29c8abd6-31b4-461d-b7e9-9ec942f82dbb.png)
+![image](https://user-images.githubusercontent.com/114626248/233443874-4d897847-f23a-43de-b7d5-301bc9d26c97.png)
+
 
 Posteriormente arroja los resultados de los segmentos IPv4 que son únicos en el archivo, es decir, que no coinciden en los demás, así mismo, los redirije a un nuevo archivo con un "Identificador" entero, para evitar sobreescribir los mismos cada ves que el proceso se repita, ó cada vez que la herramienta se ejecute.
 
