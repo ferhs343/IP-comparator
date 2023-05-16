@@ -10,7 +10,7 @@ Antes de iniciar la herramienta se debe de tener en cuenta que la misma comenzar
 
 1. Al inicio del código fuente se encuentra un arreglo con sus respectivos elementos, se DEBERÁ de cambiar cada uno de sus elementos por los nombres CORRECTOS de los archivos que se desean analizar, y que estos existen en el directorio donde se encuentra alojada la herramienta.
 
-IMPORTANTE: En este punto se deberán color los nombre de los archivos sin la extensión del mismo!.
+**IMPORTANTE:** En este punto se deberán color los nombre de los archivos sin la extensión del mismo!.
 
 ![image](https://user-images.githubusercontent.com/114626248/233439723-63b93ee0-1cbb-4012-a241-279702e90762.png)
 
